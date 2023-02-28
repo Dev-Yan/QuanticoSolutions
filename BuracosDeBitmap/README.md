@@ -1,7 +1,7 @@
 ## Desafio Buracos de Bitmap - C# 
 
 Esse código implementa uma função chamada: <strong>BitmapHoles</strong>, que recebe um array de strings: <strong> strArr</strong>, 
-representando uma matriz binária, ou seja, com elementos iguais a 0 ou 1. 
+representando uma matriz binária(inteiros que só possuem 0 ou 1). 
 A função usa o algoritmo de busca em largura (BFS) para encontrar as regiões contíguas de zeros na matriz e retorna o número de buracos existentes.
 
 O algoritmo percorre a matriz e verifica se é um 0 e se ainda não foi visitado. Se for verdadeira, o algoritmo inicia uma busca em 
